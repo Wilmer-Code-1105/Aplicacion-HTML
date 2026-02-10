@@ -1,0 +1,33 @@
+p {
+    color: red;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    /*se puede poner con un rango entre 100-900*/
+    font-style: italic;
+    /*cursiva, normal moodifica la inclianacion*/
+    text-align: justify;
+    text-decoration: line-through;
+    line-height: 2;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+h1 {
+    text-align: center;
+}
+
+.verde {
+    color: green;
+}
+
+/*Para un elemento unico*/
+#plato-bandera {
+    color: wheat;
+}
+
+div {
+    background-color: gray;
+    width: 200px;
+    height: 20px;
+}
