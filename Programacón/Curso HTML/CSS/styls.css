@@ -1,33 +1,100 @@
-p {
-    color: red;
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    font-weight: bold;
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    background-color: yellow;
+    padding-top: 50px;
+    margin:20px;
+    height: 100px;
+}
+h2{
+    color: white;
+    margin: 20PX;
+    background-color: rgb(156, 70, 12);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
     /*se puede poner con un rango entre 100-900*/
     font-style: italic;
     /*cursiva, normal moodifica la inclianacion*/
     text-align: justify;
-    text-decoration: line-through;
-    line-height: 2;
-    letter-spacing: 2px;
+    /*text-decoration: line-through; (linea central a toda la letras)*/
     text-transform: capitalize;
-}
-
-h1 {
     text-align: center;
+    padding: 20px;
 }
-
-.verde {
-    color: green;
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    background-color: yellow;
+    padding: 20px;
+    width: auto;
 }
-
-/*Para un elemento unico*/
+body{
+    background-color: red;
+    margin: auto;
+}
 #plato-bandera {
     color: wheat;
 }
+.lista_productos {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-left: 50px;
+}
+
+
+
+
+/*Para un elemento unico*/
+
 
 div {
     background-color: gray;
     width: 200px;
     height: 20px;
+}
+.formulario{
+    margin: 20px;
+    background-color: chartreuse;
+    padding: 20px;/*Separa el elemento de los bordes o padding: 10px 0 40px 20px*/
+    /*pading-(top-arriba, bottom-abajo, left-izquierda, right-derecha)*/
+    width: 90%;/*ancho que tendra*/
+    height: 100%; /*Alto*/
+}
+.formulario_input{
+    padding: 10px;
+    width: 80%;
+    
+}
+.formulario_submit{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    width: 50%;
+}
+.btnPP{
+    display: inline-block;
+    padding: 10px 70px;
+    background-color: green;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+.btnRegistro{
+    display: inline-block;
+    padding: 10px 70px;
+    background-color: rgb(95, 255, 47);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 70%;
+    margin-right:10%;
 }
