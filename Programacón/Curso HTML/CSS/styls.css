@@ -33,19 +33,20 @@ h3{
     width: auto;
 }
 body{
-    background-color: red;
-    margin: auto;
+    background-image: url("https://media.istockphoto.com/id/1352766113/es/vector/comida-r%C3%A1pida-de-hamburguesa-papas-fritas-y-refrescos-comida-basura.jpg?s=612x612&w=0&k=20&c=4ZIML5Fp8BmT6GXtkSX8WW3JZyGgtUigdfLnaikF0Po=");
 }
 #plato-bandera {
-    color: wheat;
+    color: firebrick;
 }
 .lista_productos {
-    color: white;
+    color: ff0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
     list-style-type: disc;
     padding-left: 20px;
     margin-left: 50px;
+    text-decoration: none;
+    
 }
 
 
