@@ -61,21 +61,27 @@ div {
 }
 .formulario{
     margin: 20px;
-    background-color: chartreuse;
+    background-color: seashell;
     padding: 20px;/*Separa el elemento de los bordes o padding: 10px 0 40px 20px*/
     /*pading-(top-arriba, bottom-abajo, left-izquierda, right-derecha)*/
-    width: 90%;/*ancho que tendra*/
-    height: 100%; /*Alto*/
 }
 .formulario_input{
     padding: 10px;
     width: 80%;
-    
+    color: white;
+    border-radius: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: grey;  
+    margin: 5px;  
 }
 .formulario_submit{
     letter-spacing: 5px;
     text-transform: uppercase;
     width: 50%;
+}
+::placeholder{
+    color:white
 }
 .btnPP{
     display: inline-block;
@@ -85,16 +91,22 @@ div {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
     border-radius: 5px;
+    border-width: 2px;
+    border-color: darkgoldenrod;
+    border-style: solid;
     margin-left: 70px;
 }
 .btnRegistro{
     display: inline-block;
     padding: 10px 70px;
-    background-color: rgb(95, 255, 47);
-    color: white;
+    background-color: white;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
     border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
     margin-left: 70%;
     margin-right:10%;
 }
